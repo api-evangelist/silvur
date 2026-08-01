@@ -1,7 +1,30 @@
 aid: silvur
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/silvur.png
 name: Silvur
-description: Silvur is a company surfaced as a portfolio company of anthemis and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Silvur (Silvur Technology Services, Inc.) is a white-label financial-wellness
+  platform that helps credit unions and financial institutions deliver
+  personalized retirement education and planning tools to their members and
+  customers. Its patent-pending Retirement Score answers "how long will their
+  money last in retirement?" and its SmartDraw technology generates personalized
+  recommendations across Social Security, Medicare, retirement savings, and
+  state-specific planning. Institutions launch a fully branded retirement website
+  in weeks and use it to educate members and market financial products such as
+  loans, mortgages, and insurance against the multi-trillion-dollar retirement
+  wallet. Silvur is a venture-backed fintech (Anthemis portfolio). As of this
+  enrichment pass Silvur publishes only a marketing site with legal and support
+  pages and exposes no public developer portal, API reference, SDKs, or webhooks.
 url: https://raw.githubusercontent.com/api-evangelist/silvur/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +34,39 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Fintech
+- Retirement
+- Financial Wellness
+- Credit Unions
+- Retirement Planning
+- Financial Services
+- White Label
+- Social Security
+- Medicare
 apis: []
+common:
+- type: Website
+  url: https://silvur.com
+- type: TermsOfService
+  url: https://silvur.com/terms
+- type: PrivacyPolicy
+  url: https://silvur.com/privacy
+- type: Support
+  url: mailto:support@silvur.com
+- type: LinkedIn
+  url: https://linkedin.com/company/silvur/
+- type: Twitter
+  url: https://twitter.com/getsilvur
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
